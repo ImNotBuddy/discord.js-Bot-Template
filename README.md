@@ -16,4 +16,5 @@ Commands directory
 The structure to add events is:
 Events directory
   --> Javascript Events File
+
       Note that this file does not have to be named identically to the even. Instead, edit the 'event' value in the exported object
