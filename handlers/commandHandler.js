@@ -3,7 +3,7 @@ const path = require("node:path");
 
 module.exports = {
     registerCommands(client) {
-        const foldersPath = path.join(__dirname, "commands");
+        const foldersPath = path.join(__dirname, "..", "commands");
         const commandFolders = fs.readdirSync(foldersPath);
 
         for (const folder of commandFolders) {
